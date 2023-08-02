@@ -1,5 +1,5 @@
 <?php
-include '../db_connection.php';
+include_once '../db_connection.php';
 
 try {
     $stmt = $conn->query("SELECT producto_id, SUM(cantidad_vendida) AS total_vendido FROM ventas GROUP BY producto_id ORDER BY total_vendido DESC LIMIT 1");
