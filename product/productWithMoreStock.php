@@ -25,12 +25,10 @@ try {
 
 <body>
     <div class="top-bar">
-        <!-- Agregar aquí el icono de búsqueda -->
         <i class="fas fa-search"></i>
         <div class="user-info">
             <img class="avatar" src="../img/lugo.jpeg" alt="Foto de Usuario">
-            <span class="span">Carlos Andres Lugo</span>
-            <!-- Agregar aquí el icono de cerrar sesión -->
+            <span class="span">Carlos Andres Lugo Mesa _</span>
             <i class="fas fa-sign-out-alt" id="logoutBtn"></i>
         </div>
     </div>
@@ -40,7 +38,7 @@ try {
             <div class="dropdown">
                 <button>Mas opciones</button>
                 <div class="dropdown-content">
-                    <!-- Add the ID to the link here -->
+                    <a href="../product/addProduct.php" id="updatePasswordLink">Agregar producto</a>
                     <a href="../product/productWithMoreStock.php" id="updatePasswordLink">Producto con más stock</a>
                     <a href="../product/product_bestseller.php" id="updatePasswordLink">Producto más vendido</a>
                     <a href="../sales/makeSale.php" id="updatePasswordLink">Realizar ventas</a>
@@ -66,7 +64,7 @@ try {
                             document.write(new Date().getFullYear());
                         </script>
                         , Hecho con ❤️ por
-                        <a href="https://themeselection.com" target="_blank" class="footer-link fw-bolder">Lugo</a>
+                        <a href="https://themeselection.com" target="_blank" class="footer-link fw-bolder">A. Lugo</a>
                     </div>
                 </div>
             </div>

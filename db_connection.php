@@ -1,6 +1,6 @@
 
 <?php
-// Archivo: db_connection.php
+
 $host = 'localhost';
 $user = 'root';
 $pass = '';

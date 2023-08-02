@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Equipos para Mantenimiento</title>
+    <title>Cafeteria</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.18/dist/sweetalert2.min.css">
     <link rel="stylesheet" href="./css/index.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
@@ -14,12 +14,11 @@
 
 <body>
     <div class="top-bar">
-        <!-- Agregar aquí el icono de búsqueda -->
         <i class="fas fa-search"></i>
         <div class="user-info">
             <img class="avatar" src="./img/lugo.jpeg" alt="Foto de Usuario">
-            <span class="span">Carlos Andres Lugo</span>
-            <!-- Agregar aquí el icono de cerrar sesión -->
+            <span class="span">Carlos Andres Lugo Mesa _</span>
+          
             <i class="fas fa-sign-out-alt" id="logoutBtn"></i>
         </div>
     </div>
@@ -29,7 +28,7 @@
             <div class="dropdown">
                 <button>Menu</button>
                 <div class="dropdown-content">
-                    <!-- Add the ID to the link here -->
+                    <a href="../product/addProduct.php" id="updatePasswordLink">Agregar producto</a>
                     <a href="./product/productWithMoreStock.php" id="updatePasswordLink">Producto con más stock</a>
                     <a href="./product/product_bestseller.php" id="updatePasswordLink">Producto más vendido</a>
                     <a href="./sales/makeSale.php" id="updatePasswordLink">Realizar ventas</a>
@@ -84,7 +83,7 @@
                             document.write(new Date().getFullYear());
                         </script>
                         , Hecho con ❤️ por
-                        <a href="https://themeselection.com" target="_blank" class="footer-link fw-bolder">Lugo</a>
+                        <a href="https://themeselection.com" target="_blank" class="footer-link fw-bolder">A. Lugo</a>
                     </div>
                 </div>
             </div>
