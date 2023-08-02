@@ -1,0 +1,347 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: calc(100vh - 113px);
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+.addBtn{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.btn{
+    padding: 1rem;
+    border-radius: 15px;
+    border: none;
+    background-color: skyblue;
+    cursor: pointer;
+}
+
+.main-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+.actionBtn{
+    display: flex;
+}
+
+.container{
+    display: flex;
+}
+  
+  h1 {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  p {
+    text-align: center;
+  }
+  
+  /* Estilos para la tabla */
+
+  /* Estilos para el botón "Ver Equipos" */
+  #verEquiposBtn, .actualizarBtn {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #verEquiposBtn {
+    background-color: #3085d6;
+    color: white;
+  }
+  
+  .actualizarBtn {
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  #verEquiposBtn:hover, .actualizarBtn:hover {
+    background-color: #3074c6;
+  }
+  
+  /* Estilos para la barra superior */
+  .top-bar {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .user-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .user-info img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  /* Estilos para la barra lateral izquierda */
+  .sidebar {
+    background-color: #f2f2f2;
+    width: 200px;
+    padding: 20px;
+    top: 70px;
+    left: 0;
+    bottom: 0;
+    height: calc(100vh - 80px);
+  }
+  
+  .sidebar img {
+    width: 100%;
+    max-width: 150px;
+    margin-bottom: 10px;
+  }
+  
+  /* Estilos para el menú desplegable */
+  .dropdown {
+    margin-top: 20px;
+  }
+  
+  .dropdown button {
+    background-color: #555;
+    color: #fff;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropdown-content {
+    display: none;
+    background-color: #f9f9f9;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: #333;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  /* Estilos para el pie de página */
+  .footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    /* position: fixed; */
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+  
+  /* Estilos para SweetAlert2 */
+  .swal2-input {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  .swal2-content {
+    text-align: left;
+  }
+  
+  .swal2-validation-message {
+    margin-top: 5px;
+    color: red;
+  }
+
+  
+  
+  /* Estilos adicionales para la tabla */
+  .table-actions {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .table-actions .btn {
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .table-actions .btn-delete {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  .table-actions .btn-edit {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .table-actions .btn-add {
+    background-color: #2196F3;
+    color: white;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+  }
+
+  /* Top Bar */
+  .top-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+  }
+
+  .top-bar .user-info {
+    display: flex;
+    align-items: center;
+  }
+
+  .top-bar .user-info .avatar {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+
+  /* Sidebar */
+  .sidebar {
+    background-color: #333;
+    color: #fff;
+    padding: 15px;
+  }
+
+  .sidebar img {
+    width: 100px;
+    display: block;
+    margin: 0 auto 15px;
+  }
+
+  .sidebar button {
+    background-color: #555;
+    color: #fff;
+    border: none;
+    padding: 8px 15px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+
+  .sidebar .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #555;
+    min-width: 160px;
+    z-index: 1;
+  }
+
+  .sidebar .dropdown-content a {
+    color: #fff;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+  .sidebar .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  .btn {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 16px;
+    color: #555;
+  }
+
+  .btn i {
+    margin-right: 5px;
+  }
+
+  .btn.btn-delete {
+    color: #ff0000;
+  }
+
+  .btn.btn-edit {
+    color: #007bff;
+  }
+
+  .btn.btn-add {
+    color: #00cc00;
+  }
+
+  /* Pagination */
+  .pagination {
+    margin-top: 20px;
+  }
+
+  .pagination a {
+    color: #007bff;
+    padding: 8px 12px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    border: 1px solid #007bff;
+    margin-right: 5px;
+  }
+
+  .pagination a:hover {
+    background-color: #007bff;
+    color: #fff;
+  }
+
+  .pagination .active {
+    background-color: #007bff;
+    color: #fff;
+    cursor: default;
+  }
+
+  /* Footer */
+  .footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .footer .footer-link {
+    color: #fff;
+    text-decoration: none;
+  }
