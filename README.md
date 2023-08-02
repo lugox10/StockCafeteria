@@ -16,8 +16,15 @@
 
 # producto con mas stock
 ![Screenshot_2](https://github.com/lugox10/StockCafeteria/assets/139795092/8c5340c4-c15e-4b7a-8536-333d3983d771)
-![Screenshot_5](https://github.com/lugox10/StockCafeteria/assets/139795092/ec6ca69f-dba7-4805-9cfd-2e4d45834535)
 
+
+# producto sin stock
+![tinto](https://github.com/lugox10/StockCafeteria/assets/139795092/88e792c6-dbcc-4e94-b457-db7e795ca2fe)
+![tinto1](https://github.com/lugox10/StockCafeteria/assets/139795092/c1f830ab-f58f-4017-b597-790698b42465)
+
+# producto mas vendido
+![Screenshot_5](https://github.com/lugox10/StockCafeteria/assets/139795092/ec6ca69f-dba7-4805-9cfd-2e4d45834535)
+![tinto 3](https://github.com/lugox10/StockCafeteria/assets/139795092/f282b095-2e57-49e3-81db-528c4c1c5e25)
 
 
 
